@@ -3,23 +3,18 @@ import { Clock, AlertTriangle, XCircle, DollarSign } from "lucide-react";
 const problems = [
   {
     icon: Clock,
-    title: "Wasted Attorney Time",
-    description: "Partners spending hours on consultations that never convert to billable work.",
-  },
-  {
-    icon: AlertTriangle,
-    title: "Unqualified Leads",
-    description: "Prospective clients who lack legal standing or don't fit your practice areas.",
-  },
-  {
-    icon: XCircle,
-    title: "Conflict of Interest",
-    description: "Cases that should never reach intake due to existing client conflicts.",
+    title: "Scope Mismatch",
+    description: "Prospects seeking services outside your core expertise.",
   },
   {
     icon: DollarSign,
-    title: "Retainer Issues",
-    description: "Clients unable to meet minimum retainer requirements discovered too late.",
+    title: "Budget Disconnect",
+    description: "Clients whose project scales do not meet your firm's minimums.",
+  },
+  {
+    icon: XCircle,
+    title: "Unready Leads",
+    description: "Inquiries that lack the necessary documentation or data to begin.",
   },
 ];
 
@@ -33,16 +28,15 @@ const Problem = () => {
             The Problem
           </span>
           <h2 className="mt-4 text-3xl md:text-4xl lg:text-5xl font-bold text-balance">
-            The Billable Hour Leak
+            Stop Auditing Your Own Calendar
           </h2>
           <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-            Every unqualified consultation costs your firm money, reputation, and the 
-            most valuable resource of all—your attorneys' time.
+            Every minute spent on a misaligned consultation is a minute stolen from your high-impact work. Most professional firms lose 15–20% of their weekly capacity to:
           </p>
         </div>
 
         {/* Problem Cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {problems.map((problem, index) => (
             <div
               key={problem.title}

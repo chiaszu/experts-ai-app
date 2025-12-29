@@ -21,14 +21,13 @@ const Hero = () => {
 
             {/* Headline */}
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-balance">
-              The Gatekeeper for the{" "}
-              <span className="text-accent">High-Performance</span> Law Firm
+              The Gatekeeper for{" "}
+              <span className="text-accent">High-Value</span> Professional Practices
             </h1>
 
             {/* Subheadline */}
             <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed max-w-xl">
-              Marli qualifies every prospective client before they reach your attorneys—protecting 
-              billable hours and ensuring only merit-worthy cases proceed.
+              Marli is an AI-driven pre-consultation engine that qualifies every inquiry against your firm's specific engagement standards. Protect your team's expertise and ensure your billable hours are spent on projects that align with your firm's goals.
             </p>
 
             {/* CTA Buttons */}
@@ -37,22 +36,6 @@ const Hero = () => {
                 Request a Demo
                 <ArrowRight className="ml-1 h-5 w-5" />
               </Button>
-              <Button variant="heroOutline" size="xl">
-                <Play className="mr-1 h-5 w-5" />
-                Watch Overview
-              </Button>
-            </div>
-
-            {/* Trust Indicators */}
-            <div className="pt-4 border-t border-border">
-              <p className="text-sm text-muted-foreground mb-3">
-                Trusted by leading law firms
-              </p>
-              <div className="flex items-center gap-6 opacity-60">
-                <span className="font-serif text-lg font-semibold text-foreground">Parker & Cole</span>
-                <span className="font-serif text-lg font-semibold text-foreground">Morrison LLP</span>
-                <span className="font-serif text-lg font-semibold text-foreground">Hayes Legal</span>
-              </div>
             </div>
           </div>
 

@@ -4,21 +4,21 @@ import marliCircle from "@/assets/marli-circle.png";
 const features = [
   {
     icon: Scale,
-    title: "Merit-Based Screening",
-    description: "AI evaluates case strength, legal standing, and fit with your practice areas before any attorney involvement.",
-    points: ["Statute of limitations check", "Jurisdiction verification", "Practice area alignment"],
+    title: "Strategic Alignment Screening",
+    description: "AI evaluates project strength, industry fit, and alignment with your firm's current capacity.",
+    points: ["Project scope assessment", "Industry fit verification", "Capacity alignment"],
   },
   {
     icon: Wallet,
-    title: "Financial Qualification",
-    description: "Automated retainer affordability assessment and payment plan eligibility determination.",
-    points: ["Retainer requirement matching", "Payment plan qualification", "Fee structure alignment"],
+    title: "Engagement Qualification",
+    description: "Automated budget and timeline assessment to verify a prospect's ability to move forward.",
+    points: ["Budget requirement matching", "Timeline feasibility check", "Project scale alignment"],
   },
   {
     icon: Shield,
-    title: "Conflict Detection",
-    description: "Instant cross-reference against your existing client database to identify potential conflicts of interest.",
-    points: ["Real-time conflict checks", "Multi-party analysis", "Historical case review"],
+    title: "The 'Brief' Generation",
+    description: "Marli delivers a pre-consultation memo for every lead, distilling the facts so you enter every meeting fully prepared.",
+    points: ["Automated briefing docs", "Key facts extraction", "Meeting prep summaries"],
   },
 ];
 
@@ -32,11 +32,10 @@ const Solution = () => {
             The Solution
           </span>
           <h2 className="mt-4 text-3xl md:text-4xl lg:text-5xl font-bold text-balance">
-            The Marli Protocol
+            Sophisticated Pre-Consultation. Zero Noise.
           </h2>
           <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-            A three-tier AI screening system that qualifies every prospective client 
-            before they ever speak with an attorney.
+            Three-Tier AI Screening System
           </p>
         </div>
 
