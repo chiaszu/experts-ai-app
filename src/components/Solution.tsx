@@ -1,41 +1,44 @@
 import { Shield, Scale, Wallet, CheckCircle } from "lucide-react";
 import marliCircle from "@/assets/marli-circle.png";
-
-const features = [
-  {
-    icon: Scale,
-    title: "Strategic Alignment Screening",
-    description: "AI evaluates project strength, industry fit, and alignment with your firm's current capacity.",
-    points: ["Project scope assessment", "Industry fit verification", "Capacity alignment"],
-  },
-  {
-    icon: Wallet,
-    title: "Engagement Qualification",
-    description: "Automated budget and timeline assessment to verify a prospect's ability to move forward.",
-    points: ["Budget requirement matching", "Timeline feasibility check", "Project scale alignment"],
-  },
-  {
-    icon: Shield,
-    title: "The 'Brief' Generation",
-    description: "Marli delivers a pre-consultation memo for every lead, distilling the facts so you enter every meeting fully prepared.",
-    points: ["Automated briefing docs", "Key facts extraction", "Meeting prep summaries"],
-  },
-];
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const Solution = () => {
+  const { t } = useLanguage();
+
+  const features = [
+    {
+      icon: Scale,
+      title: t.solution.features[0].title,
+      description: t.solution.features[0].description,
+      points: t.solution.features[0].points,
+    },
+    {
+      icon: Wallet,
+      title: t.solution.features[1].title,
+      description: t.solution.features[1].description,
+      points: t.solution.features[1].points,
+    },
+    {
+      icon: Shield,
+      title: t.solution.features[2].title,
+      description: t.solution.features[2].description,
+      points: t.solution.features[2].points,
+    },
+  ];
+
   return (
-    <section id="solution" className="py-20 lg:py-28">
+    <section id="solution" className="py-24 lg:py-36">
       <div className="container mx-auto px-6 lg:px-8">
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center mb-16 opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
           <span className="text-sm font-semibold text-accent uppercase tracking-wider">
-            The Solution
+            {t.solution.badge}
           </span>
           <h2 className="mt-4 text-3xl md:text-4xl lg:text-5xl font-bold text-balance">
-            Sophisticated Pre-Consultation. Zero Noise.
+            {t.solution.headline}
           </h2>
           <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-            Three-Tier AI Screening System
+            {t.solution.subheadline}
           </p>
         </div>
 
@@ -69,21 +72,6 @@ const Solution = () => {
               </ul>
             </div>
           ))}
-        </div>
-
-        {/* Visual Divider with Brand Element */}
-        <div 
-          className="mt-20 flex items-center justify-center opacity-0 animate-scale-in"
-          style={{ animationDelay: "0.5s" }}
-        >
-          <div className="relative">
-            <img 
-              src={marliCircle} 
-              alt="Marli" 
-              className="w-24 h-24 lg:w-32 lg:h-32 animate-float"
-            />
-            <div className="absolute inset-0 bg-accent/20 rounded-full blur-2xl -z-10" />
-          </div>
         </div>
       </div>
     </section>

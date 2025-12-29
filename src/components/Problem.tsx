@@ -1,37 +1,40 @@
-import { Clock, AlertTriangle, XCircle, DollarSign } from "lucide-react";
-
-const problems = [
-  {
-    icon: Clock,
-    title: "Scope Mismatch",
-    description: "Prospects seeking services outside your core expertise.",
-  },
-  {
-    icon: DollarSign,
-    title: "Budget Disconnect",
-    description: "Clients whose project scales do not meet your firm's minimums.",
-  },
-  {
-    icon: XCircle,
-    title: "Unready Leads",
-    description: "Inquiries that lack the necessary documentation or data to begin.",
-  },
-];
+import { Clock, XCircle, DollarSign } from "lucide-react";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const Problem = () => {
+  const { t } = useLanguage();
+
+  const problems = [
+    {
+      icon: Clock,
+      title: t.problem.problems[0].title,
+      description: t.problem.problems[0].description,
+    },
+    {
+      icon: DollarSign,
+      title: t.problem.problems[1].title,
+      description: t.problem.problems[1].description,
+    },
+    {
+      icon: XCircle,
+      title: t.problem.problems[2].title,
+      description: t.problem.problems[2].description,
+    },
+  ];
+
   return (
-    <section id="problem" className="py-20 lg:py-28 bg-muted/50">
+    <section id="problem" className="py-20 lg:py-28">
       <div className="container mx-auto px-6 lg:px-8">
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center mb-16 opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
           <span className="text-sm font-semibold text-accent uppercase tracking-wider">
-            The Problem
+            {t.problem.badge}
           </span>
           <h2 className="mt-4 text-3xl md:text-4xl lg:text-5xl font-bold text-balance">
-            Stop Auditing Your Own Calendar
+            {t.problem.headline}
           </h2>
           <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-            Every minute spent on a misaligned consultation is a minute stolen from your high-impact work. Most professional firms lose 15–20% of their weekly capacity to:
+            {t.problem.subheadline}
           </p>
         </div>
 
@@ -57,33 +60,33 @@ const Problem = () => {
         </div>
 
         {/* Stats Banner */}
-        <div 
+        <div
           className="mt-16 bg-primary rounded-lg p-8 lg:p-12 shadow-elevated opacity-0 animate-scale-in"
           style={{ animationDelay: "0.6s" }}
         >
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
               <p className="text-4xl lg:text-5xl font-bold text-primary-foreground">
-                40%
+                {t.problem.stats[0].value}
               </p>
               <p className="mt-2 text-sm text-primary-foreground/80">
-                of consultations don't convert
+                {t.problem.stats[0].label}
               </p>
             </div>
             <div>
               <p className="text-4xl lg:text-5xl font-bold text-primary-foreground">
-                $450/hr
+                {t.problem.stats[1].value}
               </p>
               <p className="mt-2 text-sm text-primary-foreground/80">
-                average partner billing rate
+                {t.problem.stats[1].label}
               </p>
             </div>
             <div>
               <p className="text-4xl lg:text-5xl font-bold text-primary-foreground">
-                $180K+
+                {t.problem.stats[2].value}
               </p>
               <p className="mt-2 text-sm text-primary-foreground/80">
-                annual loss per partner
+                {t.problem.stats[2].label}
               </p>
             </div>
           </div>
