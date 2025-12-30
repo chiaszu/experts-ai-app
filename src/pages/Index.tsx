@@ -12,10 +12,10 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Marli | AI Pre-Consultation Gatekeeper for Law Firms</title>
+        <title>Experts AI | AI Pre-Consultation Gatekeeper for Law Firms</title>
         <meta 
           name="description" 
-          content="Marli qualifies every prospective client before they reach your attorneys—protecting billable hours and ensuring only merit-worthy cases proceed." 
+          content="Experts AI qualifies every prospective client before they reach your attorneys—protecting billable hours and ensuring only merit-worthy cases proceed." 
         />
       </Helmet>
       

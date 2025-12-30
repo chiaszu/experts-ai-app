@@ -15,9 +15,9 @@ export const translations = {
       headline1: "The Gatekeeper for",
       headline2: "High-Value",
       headline3: "Professional Practices",
-      subheadline: "Marli is an AI-driven pre-consultation engine that qualifies every inquiry against your firm's specific engagement standards. Protect your team's expertise and ensure your billable hours are spent on projects that align with your firm's goals.",
+      subheadline: "Experts AI is an AI-driven pre-consultation engine that qualifies every inquiry against your firm's specific engagement standards. Protect your team's expertise and ensure your billable hours are spent on projects that align with your firm's goals.",
       ctaButton: "Request a Demo",
-      videoTitle: "See Marli in Action",
+      videoTitle: "See Experts AI in Action",
       videoSubtitle: "2 minute product overview",
       stat: "87%",
       statDescription: "Reduction in unqualified consultations",
@@ -75,7 +75,7 @@ export const translations = {
         },
         {
           title: "The 'Brief' Generation",
-          description: "Marli delivers a pre-consultation memo for every lead, distilling the facts so you enter every meeting fully prepared.",
+          description: "Experts AI delivers a pre-consultation memo for every lead, distilling the facts so you enter every meeting fully prepared.",
           points: [
             "Automated briefing docs",
             "Key facts extraction",
@@ -99,7 +99,7 @@ export const translations = {
         {
           step: "02",
           title: "Multi-Layer Screening",
-          description: "Marli evaluates merit, finances, conflicts, and urgency against your criteria.",
+          description: "Experts AI evaluates merit, finances, conflicts, and urgency against your criteria.",
         },
         {
           step: "03",
@@ -118,8 +118,8 @@ export const translations = {
     benefits: {
       badge: "THE ROI",
       headline: "The Expert Benefit",
-      description1: "Marli isn't about doing more—it's about protecting what matters. Your time, your expertise, your boundaries.",
-      description2: "By filtering demand before it reaches your calendar, Marli ensures every meeting is with a qualified prospect who understands your value and is ready to proceed.",
+      description1: "Experts AI isn't about doing more—it's about protecting what matters. Your time, your expertise, your boundaries.",
+      description2: "By filtering demand before it reaches your calendar, Experts AI ensures every meeting is with a qualified prospect who understands your value and is ready to proceed.",
       items: [
         {
           stat: "73%",
@@ -142,7 +142,7 @@ export const translations = {
     // CTA
     cta: {
       headline: "Ready to Protect Your Billable Hours?",
-      subheadline: "Join leading law firms who have reclaimed thousands of attorney hours with Marli's intelligent pre-consultation screening.",
+      subheadline: "Join leading law firms who have reclaimed thousands of attorney hours with Experts AI's intelligent pre-consultation screening.",
       demoButton: "Schedule a Demo",
       salesButton: "Contact Sales",
     },
@@ -199,9 +199,9 @@ export const translations = {
       headline1: "高效能律師事務所的",
       headline2: "智能",
       headline3: "守門員",
-      subheadline: "Marli 在潛在客戶接觸律師之前進行資格審查——保護可計費時間，確保只有具價值案件得以推進。",
+      subheadline: "Experts AI 在潛在客戶接觸律師之前進行資格審查——保護可計費時間，確保只有具價值案件得以推進。",
       ctaButton: "申請試用",
-      videoTitle: "觀看 Marli 實際運作",
+      videoTitle: "觀看 Experts AI 實際運作",
       videoSubtitle: "2 分鐘產品介紹",
       stat: "87%",
       statDescription: "減少不合格諮詢",
@@ -240,7 +240,7 @@ export const translations = {
     // Solution
     solution: {
       badge: "解決方案",
-      headline: "Marli 篩選機制",
+      headline: "Experts AI 篩選機制",
       subheadline: "三層式 AI 篩選系統，在潛在客戶與律師會面前完成資格審查。",
       features: [
         {
@@ -287,7 +287,7 @@ export const translations = {
         {
           step: "02",
           title: "多層篩選",
-          description: "Marli 根據您的標準評估案件價值、財務狀況、利益衝突及緊急性。",
+          description: "Experts AI 根據您的標準評估案件價值、財務狀況、利益衝突及緊急性。",
         },
         {
           step: "03",
@@ -306,8 +306,8 @@ export const translations = {
     benefits: {
       badge: "投資回報",
       headline: "專家優勢",
-      description1: "Marli 的目標不是讓您做更多——而是保護真正重要的事物。您的時間、專業知識、界限。",
-      description2: "透過在需求觸及您的行事曆前進行篩選，Marli 確保每次會議都是與理解您價值且準備好推進的合格潛在客戶進行。",
+      description1: "Experts AI 的目標不是讓您做更多——而是保護真正重要的事物。您的時間、專業知識、界限。",
+      description2: "透過在需求觸及您的行事曆前進行篩選，Experts AI 確保每次會議都是與理解您價值且準備好推進的合格潛在客戶進行。",
       items: [
         {
           stat: "73%",
@@ -330,7 +330,7 @@ export const translations = {
     // CTA
     cta: {
       headline: "準備好保護您的可計費時間了嗎？",
-      subheadline: "加入領先律師事務所的行列，透過 Marli 智能諮詢前篩選機制，成功回收數千律師工時。",
+      subheadline: "加入領先律師事務所的行列，透過 Experts AI 智能諮詢前篩選機制，成功回收數千律師工時。",
       demoButton: "預約試用",
       salesButton: "聯絡業務",
     },
