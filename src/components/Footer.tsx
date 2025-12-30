@@ -88,7 +88,7 @@ const Footer = () => {
           </p>
 
           {/* Language Switcher */}
-          <div className="flex items-center gap-2">
+          <div className="hidden flex items-center gap-2">
             <Globe className="w-4 h-4 text-primary-foreground/60" />
             <div className="relative flex items-center bg-primary-foreground/10 rounded-full p-1">
               {/* Sliding background */}
