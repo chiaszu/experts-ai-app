@@ -31,7 +31,7 @@ export const translations = {
       problems: [
         {
           title: "Budget Disconnect",
-          description: "High-value leads that terminate engagement once project costs are disclosed, often discovered only after significant time is invested.",
+          description: "Leads disengage after costs are disclosed, wasting time on conversations that never convert.",
         },
         {
           title: "Mismatched Needs",
@@ -79,7 +79,7 @@ export const translations = {
         },
         {
           title: "Expert Preparation",
-          description: "Experts AI delivers a pre-consultation memo for every lead, distilling the facts so you enter every meeting fully prepared.",
+          description: "Experts AI prepares case briefs, summarizing key facts so you start every meeting prepared.",
           points: [
             "Automated briefing docs",
             "Key facts extraction",
@@ -93,7 +93,7 @@ export const translations = {
     howItWorks: {
       badge: "How It Works",
       headline: "From First Contact to Qualified Lead",
-      subheadline: "A seamless four-step process that protects your attorneys' time while ensuring no qualified client falls through the cracks.",
+      subheadline: "A seamless four-step process that protects your experts' time while ensuring no qualified client falls through the cracks.",
       steps: [
         {
           step: "01",
@@ -113,7 +113,7 @@ export const translations = {
         {
           step: "04",
           title: "Informed Consultation",
-          description: "Experts AI delivers a tailored briefing to the professional and a readiness guide to the client, ensuring the first meeting starts with a shared understanding of the facts.",
+          description: "Clients receive a readiness guide, and firms do relevant research with case context before consultation.",
         },
       ],
     },
@@ -122,7 +122,7 @@ export const translations = {
     benefits: {
       badge: "THE ROI",
       headline: "The Expert Benefit",
-      description1: "Experts AI isn't about doing more—it's about protecting what matters. Your time, your expertise, your boundaries.",
+      description1: "Experts AI isn't about doing more, it's about protecting what matters. Your time, your expertise, your boundaries.",
       description2: "By filtering demand before it reaches your calendar, Experts AI ensures every meeting is with a qualified prospect who understands your value and is ready to proceed.",
       items: [
         {
@@ -146,7 +146,7 @@ export const translations = {
     // CTA
     cta: {
       headline: "Ready to Protect Your Billable Hours?",
-      subheadline: "Join leading law firms who have reclaimed thousands of attorney hours with Experts AI's intelligent pre-consultation screening.",
+      subheadline: "Join leading firms who have reclaimed thousands of hours with Experts AI's intelligent pre-consultation service.",
       demoButton: "Schedule a Demo",
       salesButton: "Contact Sales",
     },
@@ -168,7 +168,7 @@ export const translations = {
 
     // Footer
     footer: {
-      tagline: "AI-powered pre-consultation screening for high-performance law firms.",
+      tagline: "AI-powered pre-consultation screening for professional firms.",
       company: "Company",
       companyLinks: {
         about: "About",
