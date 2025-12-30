@@ -7,13 +7,13 @@ A comprehensive guide to all content sections on the Experts AI landing page.
 ## Hero Section
 
 **Headline:**
-The Gatekeeper for **High-Value** Professional Practices
+The Gatekeeper for **High-Value** Professional Services
 
 **Subheadline:**
-Experts AI is an AI-driven pre-consultation engine that qualifies every inquiry against your firm's specific engagement standards. Protect your team's expertise and ensure your billable hours are spent on projects that align with your firm's goals.
+Experts AI is an AI-driven pre-consultation engine that qualifies every inquiry against your firm's specific engagement standards. Protect your team's expertise and ensure your billable hours are spent on projects that align with your strategic goals.
 
 **CTA:**
-- Request a Demo
+- Enter Demo
 
 **Badge:**
 AI-Powered Pre-Consultation
@@ -33,21 +33,24 @@ See Experts AI in Action
 The Problem
 
 **Headline:**
-Stop Auditing Your Own Calendar
+The Billable Hour Leak
 
 **Subheadline:**
 Every minute spent on a misaligned consultation is a minute stolen from your high-impact work. Most professional firms lose 15–20% of their weekly capacity to:
 
 **Problem Cards:**
 
-1. **Scope Mismatch**
-   Prospects seeking services outside your core expertise.
+1. **Budget Disconnect**
+   High-value leads that terminate engagement once project costs are disclosed, often discovered only after significant time is invested.
 
-2. **Budget Disconnect**
-   Clients whose project scales do not meet your firm's minimums.
+2. **Mismatched Needs**
+   People asking for help with projects that don't fit your skills or fall outside your area of expertise.
 
-3. **Unready Leads**
-   Inquiries that lack the necessary documentation or data to begin.
+3. **Wasted Expert Time**
+   Partners spending hours on consultations that never convert to billable work.
+
+4. **Unprepared Clients**
+   Taking a call only to realize the client hasn't gathered the basic info or documents needed for actual help.
 
 **Stats Banner:**
 - **40%** - of consultations don't convert
@@ -62,36 +65,36 @@ Every minute spent on a misaligned consultation is a minute stolen from your hig
 The Solution
 
 **Headline:**
-Sophisticated Pre-Consultation. Zero Noise.
+Analytical Pre-Consultation. Zero Noise.
 
 **Subheadline:**
-Three-Tier AI Screening System
+An intelligence system that protects your expertise and ensures your billable hours are spent on high-alignment projects.
 
 **Features:**
 
-### 1. Strategic Alignment Screening
-AI evaluates project strength, industry fit, and alignment with your firm's current capacity.
+### 1. Strategic Screening
+AI evaluates project strength, industry fit, and budget alignment before reaching your desk.
 
 **Key Points:**
 - Project scope assessment
 - Industry fit verification
-- Capacity alignment
+- Budget alignment
 
-### 2. Engagement Qualification
-Automated budget and timeline assessment to verify a prospect's ability to move forward.
+### 2. Seamless Scheduling
+Once a lead is qualified, Expert AI handles the logistics of the first engagement.
 
 **Key Points:**
-- Budget requirement matching
-- Timeline feasibility check
-- Project scale alignment
+- Expert Access Control
+- Direct Workflow Integration
+- Professional Redirection
 
-### 3. The 'Brief' Generation
+### 3. Expert Preparation
 Experts AI delivers a pre-consultation memo for every lead, distilling the facts so you enter every meeting fully prepared.
 
 **Key Points:**
 - Automated briefing docs
 - Key facts extraction
-- Meeting prep summaries
+- Client Readiness
 
 ---
 
@@ -115,10 +118,10 @@ Prospects engage with your AI-powered intake form. No scheduling, no calendar ac
 Experts AI evaluates merit, finances, conflicts, and urgency against your criteria.
 
 ### Step 03: Qualified or Redirected
-Qualified leads proceed. Others receive appropriate resources or referrals.
+Qualified leads proceed to scheduling. Others receive appropriate resources or referrals.
 
-### Step 04: Expert Access Granted
-Only verified, qualified prospects gain access to your professionals' calendars.
+### Step 04: Informed Consultation
+Experts AI delivers a tailored briefing to the professional and a readiness guide to the client, ensuring the first meeting starts with a shared understanding of the facts.
 
 ---
 

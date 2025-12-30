@@ -14,9 +14,9 @@ export const translations = {
       badge: "AI-Powered Pre-Consultation",
       headline1: "The Gatekeeper for",
       headline2: "High-Value",
-      headline3: "Professional Practices",
-      subheadline: "Experts AI is an AI-driven pre-consultation engine that qualifies every inquiry against your firm's specific engagement standards. Protect your team's expertise and ensure your billable hours are spent on projects that align with your firm's goals.",
-      ctaButton: "Request a Demo",
+      headline3: "Professional Services",
+      subheadline: "Experts AI is an AI-driven pre-consultation engine that qualifies every inquiry against your firm's specific engagement standards. Protect your team's expertise and ensure your billable hours are spent on projects that align with your strategic goals.",
+      ctaButton: "Enter Demo",
       videoTitle: "See Experts AI in Action",
       videoSubtitle: "2 minute product overview",
       stat: "87%",
@@ -26,20 +26,24 @@ export const translations = {
     // Problem
     problem: {
       badge: "The Problem",
-      headline: "Stop Auditing Your Own Calendar",
+      headline: "The Billable Hour Leak",
       subheadline: "Every minute spent on a misaligned consultation is a minute stolen from your high-impact work. Most professional firms lose 15–20% of their weekly capacity to:",
       problems: [
         {
-          title: "Scope Mismatch",
-          description: "Prospects seeking services outside your core expertise.",
-        },
-        {
           title: "Budget Disconnect",
-          description: "Clients whose project scales do not meet your firm's minimums.",
+          description: "High-value leads that terminate engagement once project costs are disclosed, often discovered only after significant time is invested.",
         },
         {
-          title: "Unready Leads",
-          description: "Inquiries that lack the necessary documentation or data to begin.",
+          title: "Mismatched Needs",
+          description: "People asking for help with projects that don't fit your skills or fall outside your area of expertise.",
+        },
+        {
+          title: "Wasted Expert Time",
+          description: "Partners spending hours on consultations that never convert to billable work.",
+        },
+        {
+          title: "Unprepared Clients",
+          description: "Taking a call only to realize the client hasn't gathered the basic info or documents needed for actual help.",
         },
       ],
       stats: [
@@ -52,34 +56,34 @@ export const translations = {
     // Solution
     solution: {
       badge: "The Solution",
-      headline: "Sophisticated Pre-Consultation. Zero Noise.",
-      subheadline: "Three-Tier AI Screening System",
+      headline: "Analytical Pre-Consultation. Zero Noise.",
+      subheadline: "An intelligence system that protects your expertise and ensures your billable hours are spent on high-alignment projects.",
       features: [
         {
-          title: "Strategic Alignment Screening",
-          description: "AI evaluates project strength, industry fit, and alignment with your firm's current capacity.",
+          title: "Strategic Screening",
+          description: "AI evaluates project strength, industry fit, and budget alignment before reaching your desk.",
           points: [
             "Project scope assessment",
             "Industry fit verification",
-            "Capacity alignment",
+            "Budget alignment",
           ],
         },
         {
-          title: "Engagement Qualification",
-          description: "Automated budget and timeline assessment to verify a prospect's ability to move forward.",
+          title: "Seamless Scheduling",
+          description: "Once a lead is qualified, Expert AI handles the logistics of the first engagement.",
           points: [
-            "Budget requirement matching",
-            "Timeline feasibility check",
-            "Project scale alignment",
+            "Expert Access Control",
+            "Direct Workflow Integration",
+            "Professional Redirection",
           ],
         },
         {
-          title: "The 'Brief' Generation",
+          title: "Expert Preparation",
           description: "Experts AI delivers a pre-consultation memo for every lead, distilling the facts so you enter every meeting fully prepared.",
           points: [
             "Automated briefing docs",
             "Key facts extraction",
-            "Meeting prep summaries",
+            "Client Readiness",
           ],
         },
       ],
@@ -104,12 +108,12 @@ export const translations = {
         {
           step: "03",
           title: "Qualified or Redirected",
-          description: "Qualified leads proceed. Others receive appropriate resources or referrals.",
+          description: "Qualified leads proceed to scheduling. Others receive appropriate resources or referrals.",
         },
         {
           step: "04",
-          title: "Expert Access Granted",
-          description: "Only verified, qualified prospects gain access to your professionals' calendars.",
+          title: "Informed Consultation",
+          description: "Experts AI delivers a tailored briefing to the professional and a readiness guide to the client, ensuring the first meeting starts with a shared understanding of the facts.",
         },
       ],
     },

@@ -1,4 +1,4 @@
-import { Clock, XCircle, DollarSign } from "lucide-react";
+import { Clock, XCircle, DollarSign, AlertTriangle } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
 
 const Problem = () => {
@@ -6,19 +6,24 @@ const Problem = () => {
 
   const problems = [
     {
-      icon: Clock,
+      icon: DollarSign,
       title: t.problem.problems[0].title,
       description: t.problem.problems[0].description,
     },
     {
-      icon: DollarSign,
+      icon: XCircle,
       title: t.problem.problems[1].title,
       description: t.problem.problems[1].description,
     },
     {
-      icon: XCircle,
+      icon: Clock,
       title: t.problem.problems[2].title,
       description: t.problem.problems[2].description,
+    },
+    {
+      icon: AlertTriangle,
+      title: t.problem.problems[3].title,
+      description: t.problem.problems[3].description,
     },
   ];
 
@@ -39,7 +44,7 @@ const Problem = () => {
         </div>
 
         {/* Problem Cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {problems.map((problem, index) => (
             <div
               key={problem.title}
