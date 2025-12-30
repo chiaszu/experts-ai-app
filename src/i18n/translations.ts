@@ -168,7 +168,7 @@ export const translations = {
 
     // Footer
     footer: {
-      tagline: "AI-powered pre-consultation screening for professional firms.",
+      tagline: "AI-powered pre-consultation service for professional firms.",
       company: "Company",
       companyLinks: {
         about: "About",
