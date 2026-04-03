@@ -1,73 +1,67 @@
-# Welcome to your Lovable project
+# Experts AI
 
-## Project info
+> **Top 15 Finalist — CMU Hack-a-Startup**
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Experts AI is an AI-powered pre-consultation engine built for professional services firms — starting with law firms. It screens and qualifies every inbound inquiry against a firm's specific engagement criteria before a single billable hour is spent.
 
-## How can I edit this code?
+## The Problem
 
-There are several ways of editing your application.
+Professional firms lose 15–20% of weekly capacity to unqualified consultations — prospects with budget mismatches, out-of-scope needs, or missing documents. At an average billing rate of $450/hr, that adds up to $180K+ in annual losses per partner.
 
-**Use Lovable**
+## The Solution
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Experts AI intercepts inbound inquiries and runs them through a multi-layer screening flow:
 
-Changes made via Lovable will be committed automatically to this repo.
+1. **Intelligent Intake** — Prospects engage with an AI-powered intake form before any scheduling
+2. **Multi-Layer Screening** — AI evaluates project merit, industry fit, budget alignment, and urgency
+3. **Qualified or Redirected** — Qualified leads proceed to booking; others receive resources or referrals
+4. **Informed Consultation** — Firms receive an AI-generated case brief before the meeting
 
-**Use your preferred IDE**
+Results: 87% reduction in unqualified consultations, 73% of expert time reclaimed, 94% qualification rate.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## What's in This Repo
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+This repo contains the **marketing landing page** for Experts AI. The full platform (client chat interface + attorney dashboard) lives in a separate repo.
 
-Follow these steps:
+## Tech Stack
+
+- **React 18** + **TypeScript**
+- **Vite** — build tooling
+- **Tailwind CSS** + **shadcn/ui** — styling and components
+- **React Router** — routing
+- **i18n** — English and Traditional Chinese (繁體中文)
+
+## Running Locally
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Install dependencies
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start dev server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+App runs at `http://localhost:8080` by default.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The demo CTA links to the Experts AI app at `http://localhost:8081/demo` — start that server separately to use the live demo.
 
-**Use GitHub Codespaces**
+## Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```
+src/
+├── components/
+│   ├── ui/               # shadcn/ui component library
+│   ├── Navbar.tsx
+│   ├── Hero.tsx          # Main headline + demo CTA
+│   ├── Problem.tsx       # The billable hour leak
+│   ├── Solution.tsx      # How Experts AI solves it
+│   ├── HowItWorks.tsx    # 4-step process
+│   ├── Benefits.tsx      # ROI stats
+│   ├── CTA.tsx           # Final call-to-action
+│   └── Footer.tsx
+├── i18n/
+│   ├── LanguageContext.tsx
+│   └── translations.ts   # EN + ZH strings
+└── pages/
+    └── Index.tsx
+```
