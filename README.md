@@ -29,7 +29,6 @@ This repo contains the **marketing landing page** for Experts AI. The full platf
 - **Vite** — build tooling
 - **Tailwind CSS** + **shadcn/ui** — styling and components
 - **React Router** — routing
-- **i18n** — English and Traditional Chinese (繁體中文)
 
 ## Running Locally
 
@@ -59,9 +58,6 @@ src/
 │   ├── Benefits.tsx      # ROI stats
 │   ├── CTA.tsx           # Final call-to-action
 │   └── Footer.tsx
-├── i18n/
-│   ├── LanguageContext.tsx
-│   └── translations.ts   # EN + ZH strings
 └── pages/
     └── Index.tsx
 ```
