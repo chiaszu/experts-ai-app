@@ -31,13 +31,15 @@ const CTA = () => {
             </p>
 
             <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-              <Button
-                size="xl"
-                className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-elevated font-semibold"
-              >
-                <Calendar className="mr-2 h-5 w-5" />
-                {t.cta.demoButton}
-              </Button>
+              <a href="http://localhost:8081/demo" target="_blank" rel="noopener noreferrer">
+                <Button
+                  size="xl"
+                  className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-elevated font-semibold"
+                >
+                  <Calendar className="mr-2 h-5 w-5" />
+                  {t.cta.demoButton}
+                </Button>
+              </a>
               <Button
                 size="xl"
                 onClick={() => setContactDialogOpen(true)}

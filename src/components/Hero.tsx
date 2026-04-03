@@ -32,10 +32,12 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="xl">
-                {t.hero.ctaButton}
-                <ArrowRight className="ml-1 h-5 w-5" />
-              </Button>
+              <a href="http://localhost:8081/demo" target="_blank" rel="noopener noreferrer">
+                <Button variant="hero" size="xl">
+                  {t.hero.ctaButton}
+                  <ArrowRight className="ml-1 h-5 w-5" />
+                </Button>
+              </a>
             </div>
           </div>
 
